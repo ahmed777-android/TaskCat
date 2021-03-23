@@ -1,0 +1,119 @@
+
+body{
+    background-color:  #005ce6;
+} 
+.todoList{
+    background-color:rgba(255,255,255,0.5);
+    width: 420px;
+    height: auto;
+    margin: auto;
+    padding:15px;
+}
+
+.todoList h2{
+    text-transform: capitalize;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.todoList #tasks{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#getData{
+    width:89%;
+    height: 20px;
+    padding:5px 0;
+    color: #777;
+}
+#addData{
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background-color: #228B22;
+    border: none;
+    padding: 2px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#comp{
+    height: 20px;
+    width: 20px;    
+}
+#del{
+    cursor: pointer;
+    color: #fff;
+    background-color: #b41010;
+    border: none;
+    padding: 2px;
+    border-radius:5px;
+}
+#del,#comp{
+    float: right;
+    margin-right: 5px;
+}
+
+.showData{
+    margin:20px 0;
+    
+}
+.showData #todo{
+background-color: #F8F8FF;
+    font-size:25px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #777;
+    width: 100%;
+    margin-bottom:10px;
+    margin-right: 10px;
+}
+.done{
+   background-color: #228B22;
+    font-size:25px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #777;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom:10px;
+}
+
+p{
+    background-color: #822;
+    font-size:25px;
+    margin:10px 5px;
+    padding: 5px;
+    color: #777;
+    display: none;
+    color: white;
+    font-family: Tahoma;
+
+}
+
+#reset,#doneAll{
+    background-color: #b22222;
+    padding: 5px;
+    color:white;
+    margin-bottom:10px;
+    border-radius: 5px;
+
+}
+#doneAll{
+    background-color: #228B22;
+}
+
+h1{
+    font-size: larger;
+    background-color: #228B22;
+    width: 60%;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    text-align: center
+}
